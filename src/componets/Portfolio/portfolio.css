@@ -1,0 +1,44 @@
+.portfolioSection {
+  margin: 22px 0;
+  padding: 12px;
+}
+
+.portfolioHeader {
+  font-size: 3rem;
+  display: flex;
+  justify-content: center;
+  color: #cb6be6;
+}
+
+.portfolioCardSection {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 75vw;
+  margin: 0 auto;
+  gap: 12px;
+}
+
+.portfolioCardSection div {
+  margin-top: 12px;
+}
+
+@media screen and (max-width: 450px) {
+  .portfolioCardSection {
+    width: 95vw;
+  }
+
+  .portfolioHeader {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 912px) {
+  .portfolioCardSection {
+    width: 95vw;
+  }
+
+  .portfolioHeader {
+    font-size: 40px;
+  }
+}

@@ -1,0 +1,17 @@
+.socialSection img {
+  width: 30px;
+}
+.socialSection {
+  display: flex;
+  justify-content: center;
+  padding: 6px;
+  margin-bottom: 27px;
+  gap: 18px;
+  transition: 0.4s;
+}
+.c1:hover,
+.c2:hover,
+.c3:hover,
+.c4:hover {
+  transform: scale(1.2);
+}

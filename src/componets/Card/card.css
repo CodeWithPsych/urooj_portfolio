@@ -1,0 +1,40 @@
+.card {
+  display: grid;
+  border-radius: 1rem;
+  overflow: hidden;
+  cursor: pointer;
+  width: 16rem;
+  height: 14rem;
+}
+.card img {
+  transition: 0.4s;
+  height: 140px;
+}
+
+.card:hover img {
+  transform: scale(1.2);
+}
+.card:hover {
+  background-color: grey;
+  color: aliceblue;
+}
+@media screen and (max-width: 450px) {
+  .card {
+    width: 10rem;
+    height: 13rem;
+  }
+  .card-body h5 {
+    margin-top: -8px;
+    padding-bottom: 12px;
+  }
+}
+@media screen and (max-width: 912px) {
+  .card {
+    width: 10rem;
+    height: 13rem;
+  }
+  .card-body h5 {
+    margin-top: -8px;
+    padding-bottom: 12px;
+  }
+}

@@ -1,0 +1,59 @@
+.contactSection {
+  display: flex;
+  flex-direction: column;
+  width: 35rem;
+  margin: 12px;
+  padding: 20px;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: #000000;
+}
+#inputPassword5::placeholder {
+  color: #000000;
+}
+#exampleFormControlInput1::placeholder {
+  color: #000000;
+}
+
+#exampleFormControlTextarea1::placeholder {
+  color: #000000;
+}
+
+.contactMain {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  padding: 22px;
+}
+.contactHead {
+  display: flex;
+  justify-content: center;
+  width: 35vw;
+  font-size: 2.5rem;
+  color: #f694f6;
+}
+.submitBtn {
+  width: 115px;
+  font-size: 18px;
+  display: flex;
+  padding: 12px;
+  gap: 8px;
+  justify-content: center;
+  align-items: center;
+  transition: 0.4s;
+}
+.submit {
+  margin-top: 8px;
+}
+.submitBtn:hover {
+  transform: scale(1.05);
+}
+@media screen and (max-width: 912px) {
+  .contactHead {
+    font-size: 2rem;
+    justify-content: normal;
+    padding: 12px 0;
+  }
+}

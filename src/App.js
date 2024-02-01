@@ -1,23 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
-
+import '@fontsource/roboto/300.css';
+import React from 'react';
+import './App.css'
+import Navbar from './componets/NavBar/navbar'
+import Home from './componets/Home/home'
+import Skills from './componets/Skills/skills'
+import About from './componets/About/about'
+import Portfolio from './componets/Portfolio/portfolio'
+import Contact from './componets/Contact/contact'
+import SocialLinks from './componets/SocialLinks/socialLinks';
+import Footer from './componets/Footer/footer'
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='app'>
+      <Navbar />
+      <Home />
+      <Skills />
+      <About />
+      <Portfolio />
+      <Contact />
+      <SocialLinks />
+      <Footer />
     </div>
   );
 }

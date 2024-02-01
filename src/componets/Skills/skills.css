@@ -1,0 +1,114 @@
+.skillsSection {
+  margin: 22px 0;
+  padding: 12px;
+}
+
+.SkillHeader {
+  font-size: 3rem;
+  display: flex;
+  justify-content: center;
+  color: #cb6be6;
+}
+
+.SkillCardSection {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 75vw;
+  margin: 0 auto;
+  gap: 12px;
+}
+
+.SkillCardSection div {
+  margin-top: 12px;
+}
+
+@media screen and (max-width: 450px) {
+  .SkillCardSection {
+    width: 95vw;
+  }
+
+  .card-body h5 {
+    font-size: 15px;
+  }
+
+  .SkillHeader {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .SkillCardSection {
+    width: 95vw;
+  }
+
+  .card-body h5 {
+    font-size: 15px;
+  }
+
+  .SkillHeader {
+    font-size: 40px;
+  }
+}
+
+.s1,
+.s2,
+.s3,
+.s4,
+.s5 {
+  opacity: 0;
+}
+
+.animateSkills .s1 {
+  position: relative;
+  top: 400;
+  opacity: 1;
+  animation: slideFromBottom 1s ease-in-out;
+}
+
+.animateSkills .s2 {
+  position: relative;
+  top: 0;
+  animation: slideFromBottom 1.2s ease-in-out;
+  opacity: 1;
+}
+
+.animateSkills .s3 {
+  position: relative;
+  top: 0;
+  animation: slideFromBottom 1.4s ease-in-out forwards;
+  opacity: 1;
+}
+
+.animateSkills .s4 {
+  position: relative;
+  top: 0;
+  animation: slideFromBottom 1.6s ease-in-out forwards;
+  opacity: 1;
+}
+
+.animateSkills .s5 {
+  position: relative;
+  top: 0;
+  animation: slideFromBottom 1.8s ease-in-out forwards;
+  opacity: 1;
+}
+
+@keyframes slideFromBottom {
+  0% {
+    top: 400px;
+    opacity: 0;
+  }
+   60%{
+    opacity: 0;
+   }
+  100% {
+    top: 0;
+    opacity: 1;
+  }
+}
+@media screen and (max-width:912px) and (min-width:750px) {
+  .skillsSection{
+    margin-top: 122px;
+  }
+}
